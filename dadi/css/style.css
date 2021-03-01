@@ -1,0 +1,35 @@
+/* Properties */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1cd3c;
+}
+
+h1 {
+    color: #1010d6;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 60px 0;
+}
+
+h1, 
+.result-box {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.result-box {
+    margin-top: 60px;
+}

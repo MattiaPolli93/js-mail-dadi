@@ -10,11 +10,12 @@ var emailInput = prompt("Hello Emperor! Please insert your email:");
 var granted = "Welcome Sire, access has been granted!";
 var denied = "Sorry, that is not a valid email address, access has been denied...";
 
-// Checking
+// If not present
+document.getElementById("email-input").innerHTML = denied;
+
+// Otherwise if present
 for (var i = 0; i < emails.length; i++) {
     if (emails[i] === emailInput) {
-        document.getElementById("emailInput").innerHTML = granted;
-    } else {
-        document.getElementById("emailInput").innerHTML = denied;
+        document.getElementById("email-input").innerHTML = granted;
     }
 }
