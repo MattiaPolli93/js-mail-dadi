@@ -1,5 +1,4 @@
 // Email: to check whether the user's input matches the email address inside the array
-
 // Creating the array with the email-list
 var emails = ["augustus@gmail.com", "tiberius@gmail.com", "caligula@gmail.com", "claudius@gmail.com", "nero@gmail.com"];
 
@@ -14,8 +13,10 @@ var denied = "Sorry, that is not a valid email address, access has been denied..
 document.getElementById("email-input").innerHTML = denied;
 
 // Otherwise if present
+var i;
+
 for (var i = 0; i < emails.length; i++) {
-    if (emails[i] === emailInput) {
+    if (emails[i] == emailInput) {
         document.getElementById("email-input").innerHTML = granted;
     }
 }

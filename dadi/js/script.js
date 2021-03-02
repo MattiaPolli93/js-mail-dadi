@@ -1,6 +1,6 @@
 // To generate a random number between 1 and 6, winner gets the highest number
 // Welcome message
-alert("Welcome! Want to play a game? Pick a number between 1 and 6 (Your number will be displayed on the left)");
+alert("Welcome! Want to play a game? Let's see if you can beat the Computer, you'll win if your number (set between 1 and 6) is the higher one. Click below!");
 
 // Assigning variables and generating random numbers
 var userResult = (Math.floor(Math.random() * 6) + 1);
